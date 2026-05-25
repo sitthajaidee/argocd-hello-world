@@ -11,7 +11,7 @@ data:
     <body style="font-family:sans-serif;text-align:center;margin-top:100px">
       <h1>Hello World Round 1</h1>
       <p>Deployed by ArgoCD via GitOps</p>
-      <p style="color:green;font-size:1.2em">GitHub Webhook — instant deploy!</p>
+      <p style="color:green;font-size:1.2em">Test Instant Deploy</p>
     </body>
     </html>
 ---
