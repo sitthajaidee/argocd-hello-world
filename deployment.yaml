@@ -32,8 +32,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        # image: nginx:alpine
-        image: nginx:this-tag-does-not-exist
+        image: nginx:alpine
+        # image: nginx:this-tag-does-not-exist
         ports:
         - containerPort: 80
         volumeMounts:
