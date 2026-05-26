@@ -34,6 +34,10 @@ spec:
       - name: nginx
         image: nginx:alpine
         # image: nginx:this-tag-does-not-exist
+        resources:
+          requests:
+            memory: "10Gi"
+            cpu: "8"
         ports:
         - containerPort: 80
         volumeMounts:
