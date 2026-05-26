@@ -21,7 +21,7 @@ metadata:
   name: hello-world
   namespace: hello-world
 spec:
-  replicas: @@@
+  replicas: 1
   selector:
     matchLabels:
       app: hello-world
